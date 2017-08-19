@@ -1,0 +1,25 @@
+.flex{ display: flex;}
+
+.flex-r{ flex-direction: row; }
+
+.flex-c{ flex-direction: column; }
+
+.flex-rr{ flex-direction: row-reverse; }
+
+.flex-cr{ flex-direction: column-reverse; }
+
+
+
+// Justify-Content
+.just-start{ justify-content: flex-start;}
+
+.just-end { justify-content: flex-end;}
+
+// Align -items 
+.align-start { align-items: flex-start;}
+
+.align-end { align-items: flex-end;}
+
+
+// Flex-Wrap 
+.flex-wrap { flex-wrap: wrap;}
