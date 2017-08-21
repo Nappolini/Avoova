@@ -230,19 +230,19 @@ hr {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%; }
 
-.hero {
+.hero1 {
   height: 75vh; }
 
-.hero--left {
+.hero1--left {
   background-color: yellow;
   height: 500px; }
 
-.hero--right {
+.hero1--right {
   height: 75%;
   height: 250px;
   background-color: grey; }
 
-.hero--right--content {
+.hero1--right--content {
   text-align: center;
   height: 100%;
   width: 75%;
@@ -256,56 +256,139 @@ hr {
   -ms-flex-align: center;
       align-items: center; }
 
-.hr-line {
+.hero1--hr--line {
   width: 25%;
   border-bottom: 2px solid black; }
 
 @media (min-width: 800px) {
-  .hero {
+  .hero1 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: collumn;
         flex-direction: collumn; }
-  .hero--left {
+  .hero1--left {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 100%; }
-  .hero--right {
+  .hero1--right {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 100%; }
   .order-1 {
     -ms-flex-order: 1;
         order: 1; }
-  .hero--left--4x4 {
+  .hero1--left--4x4 {
     display: -ms-flexbox;
     display: flex;
     background-color: pink;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     height: 100%; }
-  .hero--img-1 {
+  .hero1--img-1 {
     display: -ms-flexbox;
     display: flex;
     background-color: white;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 50%; }
-  .hero--img-2 {
+  .hero1--img-2 {
     display: -ms-flexbox;
     display: flex;
     background-color: green;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 50%; }
-  .hero--img-3 {
+  .hero1--img-3 {
     display: -ms-flexbox;
     display: flex;
     background-color: blue;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 50%; }
-  .hero--img-4 {
+  .hero1--img-4 {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: red;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 50%; } }
+
+.hero2 {
+  height: 75vh; }
+
+.hero2--left {
+  background-color: yellow;
+  height: 500px; }
+
+.hero2--right {
+  height: 75%;
+  height: 250px;
+  background-color: grey; }
+
+.hero2--right--content {
+  text-align: center;
+  height: 100%;
+  width: 75%;
+  margin-left: 12.5%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.hero2--hr-line {
+  width: 25%;
+  border-bottom: 2px solid black; }
+
+@media (min-width: 800px) {
+  .hero2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: collumn;
+        flex-direction: collumn; }
+  .hero2--left {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 100%; }
+  .hero2--right {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 100%; }
+  .order-1 {
+    -ms-flex-order: 1;
+        order: 1; }
+  .hero2--left--4x4 {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: pink;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%; }
+  .hero2--img-1 {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 50%; }
+  .hero2--img-2 {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: green;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 50%; }
+  .hero2--img-3 {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: blue;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 50%; }
+  .hero2--img-4 {
     display: -ms-flexbox;
     display: flex;
     background-color: red;

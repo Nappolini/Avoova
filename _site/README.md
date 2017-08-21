@@ -8,4 +8,6 @@ The site is built with includes so each component can be removed without affecti
 
 This is going to be a modular system built ontop of prebuilt UI cards that can be added to the project to quickly prototype a layout. 
 
-Each component has minimal styling and uses atomic css to                                                                                                                                                                                
+Each component has minimal styling and uses atomic css for general stytling this is prefixed with a. 
+
+.a-propertyName{ }                                                                                                                                                                              
