@@ -1,0 +1,19 @@
+.flex-parent{
+    display: flex; 
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    flex-basis: 50%; 
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%; 
+}

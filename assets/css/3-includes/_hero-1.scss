@@ -1,0 +1,101 @@
+
+
+.hero{
+    height: 75vh; 
+}
+
+
+
+.hero--left{
+    background-color: yellow;
+    height: 500px;
+}
+
+.hero--right{
+    height: 75%;
+    height: 250px;  
+    background-color: grey;
+}
+
+// Centers the content in the middle of the block,
+// Restricts the content to the 75% width 
+.hero--right--content{
+    text-align: center;
+    height: 100%;
+    width: 75%; 
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.hr-line{
+    width: 25%; 
+    border-bottom: 2px solid black;
+}
+
+
+//==============================
+    //  Media queries from 650px and up 
+ //==============================
+
+ @media (min-width: 800px){
+    .hero{
+        display: flex;
+        flex-direction: collumn;
+    }
+
+    .hero--left{
+        flex-basis: 50%; 
+        height: 100%;
+    }
+
+    .hero--right{
+        flex-basis: 50%; 
+        height: 100%;
+    }
+
+    .order-1{
+         order: 1; 
+    }
+
+
+    //==============================
+        // internal 4 x 4 img block 
+    //==============================
+
+    .hero--left--4x4{
+        display: flex; 
+        background-color: pink; 
+        flex-wrap: wrap;
+        height: 100%; 
+    }
+
+    .hero--img-1{
+        display: flex;
+        background-color: white; 
+        flex-basis: 50%;  
+        height: 50%; 
+    }  
+    
+    .hero--img-2{
+        display: flex;
+        background-color: green; 
+        flex-basis: 50%;  
+        height: 50%; 
+    }    
+
+    .hero--img-3{
+        display: flex;
+        background-color: blue; 
+        flex-basis: 50%;  
+        height: 50%; 
+    }    
+
+    .hero--img-4{
+        display: flex;
+        background-color: red; 
+        flex-basis: 50%;  
+        height: 50%; 
+    }    
+ }

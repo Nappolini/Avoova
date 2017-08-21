@@ -23,3 +23,17 @@
 
 // Flex-Wrap 
 .flex-wrap { flex-wrap: wrap;}
+
+// Flex Parent 
+.flex-parent-c{
+     display: flex; 
+    flex-direction: column;
+}
+
+.flex-parent-r{
+     display: flex; 
+    flex-direction: row;
+}
+
+// Flex order 
+.a-flexOrder-1 { order: -1; }
