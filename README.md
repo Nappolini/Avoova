@@ -10,4 +10,7 @@ This is going to be a modular system built ontop of prebuilt UI cards that can b
 
 Each component has minimal styling and uses atomic css for general stytling this is prefixed with a. 
 
-.a-propertyName{ }                                                                                                                                                                              
+```css
+.a-propertyName{ }
+```
+The leading principle is that this pattern library is not defined by a grid system. Add the css classes to your html markup and the UI element will comply with the grid, grid system or grid frame work that you are using. 
