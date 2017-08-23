@@ -1,0 +1,20 @@
+.gall-block--img{
+    height: 250px;
+}
+
+// Styles for 800px and up 
+@media (min-width: 800px){
+    .gall-block-1{
+        display: flex;
+    }
+    .gall-block-1--col--1{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 33.33%;
+    }
+
+    .gall-block--img{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}

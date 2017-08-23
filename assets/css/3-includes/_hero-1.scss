@@ -7,14 +7,18 @@
 
 
 .hero1--left{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     background-color: yellow;
     height: 500px;
 }
 
+
 .hero1--right{
     height: 75%;
     height: 250px;  
-    background-color: grey;
+    background-color: #f9fbff;
 }
 
 // Centers the content in the middle of the block,

@@ -184,10 +184,12 @@ h5,
 h6 {
   font-size: 1.333em;
   line-height: 1.2;
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.75em;
+  font-family: 'Poppins', sans-serif; }
 
 p {
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.75em;
+  font-family: 'Poppins', sans-serif; }
 
 a {
   color: #1565c0;
@@ -205,6 +207,13 @@ hr {
   border-right: 0;
   border-top: 0;
   margin: 1.5em 0; }
+
+.home-wrap {
+  width: 75vw;
+  margin: 0 auto; }
+
+section {
+  margin-top: 25px; }
 
 .flex-parent {
   display: -ms-flexbox;
@@ -234,13 +243,19 @@ hr {
   height: 75vh; }
 
 .hero1--left {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   background-color: yellow;
   height: 500px; }
 
 .hero1--right {
   height: 75%;
   height: 250px;
-  background-color: grey; }
+  background-color: #f9fbff; }
 
 .hero1--right--content {
   text-align: center;
@@ -323,7 +338,7 @@ hr {
 .hero2--right {
   height: 75%;
   height: 250px;
-  background-color: grey; }
+  background-color: #f9fbff; }
 
 .hero2--right--content {
   text-align: center;
@@ -343,6 +358,58 @@ hr {
   width: 25%;
   border-bottom: 2px solid black; }
 
+.hero2--left--4x4 {
+  height: 100%;
+  background-color: pink;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.hero2--img-1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  background-color: #f9fbff; }
+
+.hero2--img-2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  background-color: green; }
+
+.hero2--img-3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  background-color: blue; }
+
+.hero2--img-4 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  background-color: #f9fbff; }
+
 @media (min-width: 800px) {
   .hero2 {
     display: -ms-flexbox;
@@ -361,40 +428,61 @@ hr {
     -ms-flex-order: 1;
         order: 1; }
   .hero2--left--4x4 {
-    display: -ms-flexbox;
-    display: flex;
-    background-color: pink;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     height: 100%; }
   .hero2--img-1 {
-    display: -ms-flexbox;
-    display: flex;
-    background-color: white;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 50%; }
   .hero2--img-2 {
-    display: -ms-flexbox;
-    display: flex;
-    background-color: green;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 50%; }
   .hero2--img-3 {
-    display: -ms-flexbox;
-    display: flex;
-    background-color: blue;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 50%; }
   .hero2--img-4 {
-    display: -ms-flexbox;
-    display: flex;
-    background-color: red;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     height: 50%; } }
+
+p {
+  margin: 0px; }
+
+.center-txt {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.center-txt--title {
+  text-align: center;
+  width: 75%; }
+
+.center-txt--p {
+  text-align: center; }
+
+.gall-block--img {
+  height: 250px; }
+
+@media (min-width: 800px) {
+  .gall-block-1 {
+    display: -ms-flexbox;
+    display: flex; }
+  .gall-block-1--col--1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-preferred-size: 33.33%;
+        flex-basis: 33.33%; }
+  .gall-block--img {
+    margin-left: 10px;
+    margin-top: 10px; } }
 
 .flex {
   display: -ms-flexbox;
@@ -478,6 +566,15 @@ hr {
 
 .txt-dec-none {
   text-decoration: none; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.75em; }
+
+h3 {
+  font-size: 1.5em; }
 
 .overflow-h {
   overflow: hidden; }

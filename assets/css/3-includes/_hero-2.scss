@@ -14,7 +14,7 @@
 .hero2--right{
     height: 75%;
     height: 250px;  
-    background-color: grey;
+    background-color: #f9fbff;
 }
 
 // Centers the content in the middle of the block,
@@ -33,6 +33,53 @@
     width: 25%; 
     border-bottom: 2px solid black;
 }
+
+
+
+.hero2--left--4x4{
+        height: 100%; 
+        background-color: pink; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero2--img-1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-grow: 1; 
+        background-color: #f9fbff; 
+    
+    }  
+    
+    .hero2--img-2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-grow: 1; 
+        background-color: green; 
+  
+    }    
+
+    .hero2--img-3{
+         display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-grow: 1; 
+        background-color: blue; 
+     
+    }    
+
+    .hero2--img-4{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-grow: 1;  
+        background-color: #f9fbff; 
+      
+    }    
+
+
 
 
 //==============================
@@ -65,36 +112,26 @@
     //==============================
 
     .hero2--left--4x4{
-        display: flex; 
-        background-color: pink; 
         flex-wrap: wrap;
         height: 100%; 
     }
 
     .hero2--img-1{
-        display: flex;
-        background-color: white; 
         flex-basis: 50%;  
         height: 50%; 
     }  
     
     .hero2--img-2{
-        display: flex;
-        background-color: green; 
         flex-basis: 50%;  
         height: 50%; 
     }    
 
     .hero2--img-3{
-        display: flex;
-        background-color: blue; 
         flex-basis: 50%;  
         height: 50%; 
     }    
 
     .hero2--img-4{
-        display: flex;
-        background-color: red; 
         flex-basis: 50%;  
         height: 50%; 
     }    
