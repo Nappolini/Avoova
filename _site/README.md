@@ -2,7 +2,7 @@
 
 Pattern Library 
 
-I am building the site using OOCSS (Modules), Atomic CSS (clean code base) and SMACSs (file structure) and BEM (Naming convention). 
+I am using OOCSS (Modules), Atomic CSS (clean code base) and SMACSs (file structure) and BEM (Naming convention). 
 
 The site is built with includes so each component can be removed without affecting the remainder of the page.  Want to include a testimonail- Include it in the .html file add it to the pug files and scss files. 
 
@@ -16,6 +16,9 @@ Each component has minimal styling and uses atomic css for general stytling this
 The leading principle is that this pattern library is not defined by a grid system. Add the css classes to your html markup and the UI element will comply with the grid, grid system or grid frame work that you are using. 
 
 
+## Responsive 
+
+Every UI I component is build with a mobile first approach and extremely customizable to adobt to the breakpoints for different projects
 
 Base Atomic CSS     
 =============================

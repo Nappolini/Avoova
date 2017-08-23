@@ -3,9 +3,16 @@
 // 2-Layouts 
 @import "2-layouts/layouts-dir";
 
-// 3 - includes
-@import "3-includes/includes-dir";
 
+
+
+
+// Includes folder Gallery 
+@import "3-includes/gallery/_gallery-dir.scss";
+@import "3-includes/hero/hero-dir.scss";
+@import "3-includes/header/header-dir.scss";
+@import "3-includes/text/text-dir.scss";
 
 // 4 - Utility
 @import "4-utility/_utility-dir";
+

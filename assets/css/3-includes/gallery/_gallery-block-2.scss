@@ -1,0 +1,30 @@
+.gall-block-2--img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.gall-block-2-info{
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+// Styles for 800px and up 
+@media (min-width: 800px){
+    .gall-block-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .gall-block-2--col--1{
+        display: flex;
+        flex-direction: column;
+        width: 30%; 
+    }
+
+    .gall-block-2--img{
+        height: 250px; 
+    }
+}
