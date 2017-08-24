@@ -1,0 +1,39 @@
+.gall-block-3--img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.gall-block-3-info{
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+// Styles for 800px and up 
+@media (min-width: 800px){
+    .gall-block-3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .gall-block-3--col--1{
+        display: flex;
+        flex-direction: column;
+        width: 20%; 
+    }
+
+    .gall-block-3--img{
+        height:  200px;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .img--3--icon{
+        background-color: pink;
+        display: flex;
+        align-content: center;
+    }
+
+}
