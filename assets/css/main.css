@@ -345,6 +345,96 @@ section {
     -ms-flex-pack: center;
         justify-content: center; } }
 
+.gall-block-5 {
+  margin-bottom: 75px; }
+
+.gall-block-5--col--1 {
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 0px #f0e8f0;
+  margin-bottom: 35px; }
+
+.gall-block-5--img {
+  height: 250px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.gall-block-5-info {
+  padding-top: 15px;
+  text-align: center; }
+
+@media (min-width: 800px) {
+  .gall-block-5 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .gall-block-5--col--1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin-top: 25px;
+    width: 20%; }
+  .gall-block-5--img {
+    background-color: #E8E8E8;
+    height: 200px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
+
+.gall-block-6 {
+  margin-bottom: 75px; }
+
+.gall-block-6--col--1 {
+  border-radius: 3px;
+  margin-bottom: 35px; }
+
+.gall-block-6--img {
+  height: 250px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: grey; }
+
+.gall-block-6-info-block {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px; }
+
+.gall-block-6--info--text {
+  margin-left: 25px; }
+
+.gall-block-6--info--p {
+  color: grey;
+  margin-top: -15px; }
+
+@media (min-width: 800px) {
+  .gall-block-6 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .gall-block-6--col--1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin-top: 25px;
+    width: 45%; }
+  .gall-block-6--img {
+    background-color: #E8E8E8;
+    height: 200px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
+
 .hero1 {
   height: 75vh; }
 

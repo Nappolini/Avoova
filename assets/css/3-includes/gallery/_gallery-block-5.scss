@@ -1,0 +1,46 @@
+.gall-block-5{
+    margin-bottom: 75px;
+}
+
+
+.gall-block-5--col--1{
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 0px rgba(240,232,240,1);
+    margin-bottom: 35px; 
+}
+
+.gall-block-5--img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.gall-block-5-info{
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+// Styles for 800px and up 
+@media (min-width: 800px){
+    .gall-block-5{
+        display: flex;
+        justify-content: space-between;
+    }
+    .gall-block-5--col--1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        width: 20%;
+    }
+
+    .gall-block-5--img{
+        background-color: #E8E8E8;
+        height:  200px;
+        display: flex;
+        justify-content: center; 
+    }
+
+   
+
+}
