@@ -1,0 +1,119 @@
+
+
+
+
+.header-3{
+    background-color:#f7f7ff;
+    display: flex;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.logo-3{
+    display: flex;
+    flex-basis: 50%; 
+    align-items: center;
+    
+}
+
+.width-100{
+    justify-content: flex-start;
+    width: 100%; 
+}
+
+
+.mobile-nav-toggle--3{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%; 
+    align-items: center;
+    cursor: pointer;
+
+    span, 
+    span:before, 
+    span:after{
+        content: ""; 
+        display: block;
+        height: 2px; 
+        background-color: #333;
+        position: relative; 
+        transition: all ease-in-out;
+    }
+
+    span{
+        width: 50px;
+    }
+    span:before{
+        top: 10px;
+        width: 75%;
+        left: 12.5%;
+    }
+
+    span:after{
+        bottom: 12px; 
+        width: 75%;
+        left: 12.5%;
+    }
+
+    &.is-open span{
+        background-color: transparent; 
+    }
+
+    &.is-open span:before, 
+    &.is-open span:after{
+        transform-origin: center; 
+        transform: rotate(45deg);
+        top: 0; 
+    }
+
+    &.is-open span:after{
+        transform: rotate(-45deg);
+    }
+}
+
+
+.mobile-nav{
+    background-color: white;
+    margin: 0; 
+    position: absolute;
+    width: 100%;
+    padding: 15px; 
+    transform: translateY(-100%);
+    transform: all 0.3s ease-in-out;
+    
+
+    li{
+        padding-top: 10px;
+    }
+}
+
+ .large-nav--header--3{
+     display: none;
+ }
+
+// styles for 800px and above 
+@media (min-width: 1050px){
+    .mobile-nav-toggle--3{
+        display: none;
+    }
+
+    .logo-3{
+        justify-content: center;
+    }
+
+    .large-nav--header--3{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        padding-right: 10px;
+
+        ul{
+            align-self: center;
+        }
+
+        a{
+            padding-left: 15px;
+        }
+    }
+}

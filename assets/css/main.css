@@ -895,6 +895,104 @@ a {
     .large-nav a {
       padding-left: 15px; } }
 
+.header-3 {
+  background-color: #f7f7ff;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  margin-top: 50px;
+  margin-bottom: 75px; }
+
+.logo-3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.width-100 {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  width: 100%; }
+
+.mobile-nav-toggle--3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -ms-flex-align: center;
+      align-items: center;
+  cursor: pointer; }
+  .mobile-nav-toggle--3 span,
+  .mobile-nav-toggle--3 span:before,
+  .mobile-nav-toggle--3 span:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #333;
+    position: relative;
+    transition: all ease-in-out; }
+  .mobile-nav-toggle--3 span {
+    width: 50px; }
+  .mobile-nav-toggle--3 span:before {
+    top: 10px;
+    width: 75%;
+    left: 12.5%; }
+  .mobile-nav-toggle--3 span:after {
+    bottom: 12px;
+    width: 75%;
+    left: 12.5%; }
+  .mobile-nav-toggle--3.is-open span {
+    background-color: transparent; }
+  .mobile-nav-toggle--3.is-open span:before,
+  .mobile-nav-toggle--3.is-open span:after {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0; }
+  .mobile-nav-toggle--3.is-open span:after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+
+.mobile-nav {
+  background-color: white;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transform: all 0.3s ease-in-out;
+          transform: all 0.3s ease-in-out; }
+  .mobile-nav li {
+    padding-top: 10px; }
+
+.large-nav--header--3 {
+  display: none; }
+
+@media (min-width: 1050px) {
+  .mobile-nav-toggle--3 {
+    display: none; }
+  .logo-3 {
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .large-nav--header--3 {
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    padding-right: 10px; }
+    .large-nav--header--3 ul {
+      -ms-flex-item-align: center;
+          align-self: center; }
+    .large-nav--header--3 a {
+      padding-left: 15px; } }
+
 p {
   margin: 0px; }
 
