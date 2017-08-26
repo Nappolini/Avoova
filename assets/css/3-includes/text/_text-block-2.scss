@@ -1,0 +1,40 @@
+.text-block-2{
+    flex-basis: 350px; 
+    flex-grow: 1;
+
+  
+}
+
+ .text-block-2--sub--title{
+    margin-top: 25px;        
+}
+
+// Media query for 800px and up 
+@media (min-width: 800px){
+
+    .text-block-2{
+        display: flex;
+        width: 100%; 
+    }
+
+    .text-block-2--col--1{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column; 
+    }
+
+
+    .text-block-2--col--1{
+        flex-basis: 50%;
+     }
+
+    .text-block-2--title {
+        width: 75%;
+    }
+        
+    .text-block-2--col--2 {
+        flex-basis: 50%; 
+    }
+
+   
+}

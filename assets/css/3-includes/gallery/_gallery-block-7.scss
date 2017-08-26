@@ -1,0 +1,53 @@
+.gall-block-7{
+    margin-bottom: 75px;
+}
+
+
+.gall-block-7--col--1{
+    border-radius: 3px;
+    margin-bottom: 35px; 
+}
+
+.gall-block-7--img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: grey; 
+}
+
+.gall-block-7-info{
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+// Styles for 800px and up 
+@media (min-width: 800px){
+    .gall-block-7{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .gall-block-7--col--1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        width: 45%;
+    }
+
+    .gall-block-7--img{
+        background-color: #E8E8E8;
+        height:  300px;
+        display: flex;
+        justify-content: center; 
+    }
+
+   
+
+}

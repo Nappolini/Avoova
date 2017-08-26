@@ -1,0 +1,28 @@
+.text-block-3{
+    height: 300px; 
+}
+
+.text-block-3--title{
+    margin-top: 25px;        
+}
+
+// Media query for 800px and up 
+@media (min-width: 800px){
+
+     .text-block-3{
+        display: flex;
+    }
+
+    .text-block-2--col--1{
+        display: flex;
+        flex-basis: 33.33%; 
+        flex-direction: column; 
+    }
+
+    .text-block-3--title{
+        width: 85%; 
+    }
+   
+
+   
+}
