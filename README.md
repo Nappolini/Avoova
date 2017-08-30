@@ -1,6 +1,6 @@
-###  project 
+#  Pattern Library  
 
-Pattern Library 
+
 
 The purpose of this pattern libray is to provide individaul UI Patterns/Modules that can be eisily added to projects for rapid protoyping which will not have an effect on your existing code base or have difficulties intergrating it into a  JS frameworks such as React or Vue. 
 
@@ -10,23 +10,8 @@ The layout are positioned with flex box so it is advised to use an auto prefixer
 
 
 
-## Responsive 
-
-Every UI I component is build with a mobile first approach and extremely customizable easily change the responsive break points to suit your UI design. 
-
-Base Atomic CSS     
-=============================
-
-
-This is a starter file that inludes: 
-1. Jekyll 
-2. Gulp
-    Browser sync 
-    Autoprefix
-    Pug 
     
-    
-###TODO   
+# TODO   
 =============================
 
 
