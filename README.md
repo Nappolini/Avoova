@@ -2,16 +2,12 @@
 
 Pattern Library 
 
-I am using OOCSS (Modules) SMACSs (file structure) and BEM (Naming convention). 
+The purpose of this pattern libray is to provide individaul UI Patterns/Modules that can be eisily added to projects for rapid protoyping which will not have an effect on your existing code base or have difficulties intergrating it into a  JS frameworks such as React or Vue. 
 
-The site is built with SASS includes so each component can be removed without affecting the remainder of the page.  Want to include a testimonail- Include it in the .html file add it to the pug files and scss files. 
+Each component has its own SASS / JS (vanilla) / HTML and Pug folder. To use the component simply copy and paste the code into its respective files. Each component is built using OOCSS, BEM and SASS, which allows easy custimization of the component. Additionaly the components are built using mobile first design principles. 
 
-This is going to be a modular system built ontop of prebuilt UI cards that can be added to the project to quickly prototype a layout. 
+The layout are positioned with flex box so it is advised to use an auto prefixer for cross browser compatability. 
 
-Each component has minimal styling and uses atomic css for general stytling this is prefixed with a. 
-
-
-The leading principle is that this pattern library is not defined by a grid system. Add the css classes to your html markup and the UI element will comply with the grid, grid system or grid frame work that you are using. 
 
 
 ## Responsive 
@@ -21,8 +17,6 @@ Every UI I component is build with a mobile first approach and extremely customi
 Base Atomic CSS     
 =============================
 
-This is the start of the Base Atomic CSS for rapid prototyping. The idea behind this project is to provide a base set of utility classes that can be eaisily added to a new or existing project. It is designed to be modular so if you dont use a set of utility classes remove it from the import statement on the _utility-dir.scss file. 
-
 
 This is a starter file that inludes: 
 1. Jekyll 
@@ -31,10 +25,16 @@ This is a starter file that inludes:
     Autoprefix
     Pug 
     
-Items that will be added to the gulp file include; 
+    
+#TODO   
+=============================
+
+
+Add the following to the Gulp file
 1. Babel for ES6
 2. Image minification
 3. CSS minification 
 
-
-
+Design and implement a clean and minimal UI design for the project 
+Add JS functionality to reveal the code for each components SASS, JS and HTML 
+Add in JS functionality for the img sliders 
