@@ -2,7 +2,7 @@
 
 
 
-The purpose of this pattern libray is to provide individaul UI Patterns/Modules that can be eisily added to projects for rapid protoyping which will not have an effect on your existing code base or have difficulties intergrating it into a  JS frameworks such as React or Vue. 
+The purpose of this pattern libray is to provide individaul UI Patterns/Modules that can be eisily added to projects for rapid protoyping. The UI components are minimaly styled to decrease devlopment time 
 
 Each component has its own SASS / JS (vanilla) / HTML and Pug folder. To use the component simply copy and paste the code into its respective files. Each component is built using OOCSS, BEM and SASS, which allows easy custimization of the component. Additionaly the components are built using mobile first design principles. 
 
