@@ -20,6 +20,6 @@ Add the following to the Gulp file
 2. Image minification
 3. CSS minification 
 
-Design and implement a clean and minimal UI design for the project 
-Add JS functionality to reveal the code for each components SASS, JS and HTML 
-Add in JS functionality for the img sliders 
+1. Design and implement a clean and minimal UI design for the project with a sidebar NAV 
+2. Add JS functionality to reveal the code for each components SASS, JS and HTML 
+3. Add in JS functionality for the img sliders 
